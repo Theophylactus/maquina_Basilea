@@ -6,7 +6,7 @@ The program will interpret any arithmetic expression built with the most fundame
 No error handling was implemented. Bad expressions will simply give a result of 0.
 
 ## Usage
-Compiling: run `./build.sh` to generate library and executable files.
+Compiling: run `./build.sh` to generate library and executable files.  
 Running: `./Basilea *<expression>*` or `./Basilea` to enter REPL mode.
 
 A silly graph made with a program built with libbasilea.so
