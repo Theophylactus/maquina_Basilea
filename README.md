@@ -7,7 +7,7 @@ No error handling was implemented. Bad expressions will simply give a result of 
 
 ## Usage
 Compiling: run `./build.sh` to generate library and executable files.  
-Running: `./Basilea *<expression>*` or `./Basilea` to enter REPL mode.
+Running: `./Basilea <expression>` or `./Basilea` to enter REPL mode.
 
 A silly graph made with a program built with libbasilea.so
 ![alt text](https://raw.githubusercontent.com/Theophylactus/maquina_Basilea/main/sine.png)
