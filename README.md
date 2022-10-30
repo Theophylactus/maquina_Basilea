@@ -10,4 +10,4 @@ Compiling: run `./build.sh` to generate library and executable files.
 Running: `./Basilea <expression>` or `./Basilea` to enter REPL mode.
 
 A silly graph made with a program built with libbasilea.so
-!(https://raw.githubusercontent.com/Theophylactus/maquina_Basilea/main/sine.png)
+![](https://raw.githubusercontent.com/Theophylactus/maquina_Basilea/main/sine.png)
