@@ -29,9 +29,11 @@ static bool isdouble(const char* str) {
 
 #define FUNCS_COUNT 20
 #define LONGEST_FUNC 5
-static const char functions[FUNCS_COUNT][LONGEST_FUNC] = {"sin", "asin", "cos", "acos", "tan", "atan", "cosh",
-														"sinh", "tanh", "acosh", "asinh", "atanh", "ln", "log",
-														"sqrt", "cbrt", "round", "ceil", "abs", "floor"};
+static const char functions[FUNCS_COUNT][LONGEST_FUNC] = {
+	"sin", "asin", "cos", "acos", "tan", "atan", "cosh",
+	"sinh", "tanh", "acosh", "asinh", "atanh", "ln", "log",
+	"sqrt", "cbrt", "round", "ceil", "abs", "floor"
+};
 				
 // Looks for functions in the term and computes them (example: "sqrt 100" turns into 10)
 static long double parse_functions(const char* term) {
